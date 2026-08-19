@@ -6,7 +6,7 @@ import axios from 'axios';
 
 function Login() {
     const navigate = useNavigate();
-    const baseurl="https://instagram-assignment-ivory.vercel.app/"
+    const baseurl="https://instagram-assignment-ivory.vercel.app"
     const [formData, setFormData] = useState({
         email: '',
         password: ''
