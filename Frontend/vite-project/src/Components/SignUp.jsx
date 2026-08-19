@@ -42,7 +42,9 @@ function SignUp() {
     axios.post(baseurl + "/auth/signup", formData)
     .then((res) => {
       alert(res.data);
-      navigate("/");
+      if(res.data === "user created!"){
+        navigate("/");
+      }
     })
     .catch((err) => {
       alert(err.response?.data || err.message || "An error occurred during signup");
