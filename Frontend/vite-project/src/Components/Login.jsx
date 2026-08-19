@@ -23,7 +23,7 @@ function Login() {
         })
         .catch((err)=>{
             console.log(err);
-            alert(err.data)
+            alert(err.response?.data || err.message || "Login failed");
         })
     }
     const handleSignUpBtn = () => {

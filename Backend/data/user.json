@@ -1,32 +1,42 @@
 [
-    {
-        "email": "ahmed@gmail.com",
-        "password": "$2b$12$cJpC3GaxX2aTWpzqbFesh.9jpQKwrVJInWDahLKTCYWtCJjrmFvym",
-        "uid": 1787170957380,
-        "fullName": "ahmed",
-        "username": "ahmed",
-        "day": "7",
-        "month": "July",
-        "year": "2020"
-    },
-    {
-        "email": "ahmed1@gmail.com",
-        "password": "$2b$12$oDdadCxpYN/WdaXnrmptxufEihM6M/E6ecxWmFRarOc/FpRqJGbyC",
-        "uid": 1787171148586,
-        "fullName": "ahmed",
-        "username": "ahmed",
-        "day": "7",
-        "month": "July",
-        "year": "2020"
-    },
-    {
-        "email": "noman@gmail.com",
-        "password": "$2b$12$qkg2zoADB6HIM3PwZOliiOYhRa1ckU2o8IWprYAuNiDfmyLZ7dXeG",
-        "uid": 1787171830899,
-        "fullName": "Noman",
-        "username": "Noman",
-        "day": "7",
-        "month": "January",
-        "year": "2019"
-    }
+  {
+    "email": "ahmed@gmail.com",
+    "password": "$2b$12$cJpC3GaxX2aTWpzqbFesh.9jpQKwrVJInWDahLKTCYWtCJjrmFvym",
+    "uid": 1787170957380,
+    "fullName": "ahmed",
+    "username": "ahmed",
+    "day": "7",
+    "month": "July",
+    "year": "2020"
+  },
+  {
+    "email": "ahmed1@gmail.com",
+    "password": "$2b$12$oDdadCxpYN/WdaXnrmptxufEihM6M/E6ecxWmFRarOc/FpRqJGbyC",
+    "uid": 1787171148586,
+    "fullName": "ahmed",
+    "username": "ahmed",
+    "day": "7",
+    "month": "July",
+    "year": "2020"
+  },
+  {
+    "email": "noman@gmail.com",
+    "password": "$2b$12$qkg2zoADB6HIM3PwZOliiOYhRa1ckU2o8IWprYAuNiDfmyLZ7dXeG",
+    "uid": 1787171830899,
+    "fullName": "Noman",
+    "username": "Noman",
+    "day": "7",
+    "month": "January",
+    "year": "2019"
+  },
+  {
+    "email": "test_local@example.com",
+    "password": "$2b$10$YI4p.M8sXk/w2sTBZ2TOPOJVrLGM6Xnr2JODaRZBEe8D53IGs1pU.",
+    "uid": 1787173495405,
+    "fullName": "Test User",
+    "username": "testuser",
+    "day": "",
+    "month": "",
+    "year": ""
+  }
 ]

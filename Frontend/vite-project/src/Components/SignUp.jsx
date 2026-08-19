@@ -39,14 +39,14 @@ function SignUp() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post(baseurl+"/auth/signup",formData)
-    .then((res)=>{
-      alert(res.data)
-      navigate("/")
+    axios.post(baseurl + "/auth/signup", formData)
+    .then((res) => {
+      alert(res.data);
+      navigate("/");
     })
-    .catch((err)=>{
-      alert(err.data)
-    })
+    .catch((err) => {
+      alert(err.response?.data || err.message || "An error occurred during signup");
+    });
   };
 
   const handleBackToLogin = () => {
