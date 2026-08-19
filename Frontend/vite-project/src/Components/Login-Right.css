@@ -1,0 +1,25 @@
+.insta-logo{
+    width: 100px;
+    height: 100px;
+}
+
+.insta-text{
+    font-size: 30px;
+    font-weight: 400;
+    color: #262626;
+    text-align: center;   
+}
+
+.close-friends{
+     background-image: linear-gradient(to right, rgb(255, 171, 75), purple);
+  -webkit-background-clip: text; /* Clips background to text shape */
+  background-clip: text;
+  color: transparent;    
+}
+
+.main-img{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    left: 100px
+}
